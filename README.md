@@ -12,3 +12,7 @@ The UCI Human Activity Recognition dataset has total 561 features for each activ
 # Step 1 (Basic Query):
 As a starting point, we can tell the LLM a short description of the task and the feature list, which can be provided to the role "system". Then for every recognition instance, we can simply send a list of N feature values and ask the LLM to predict the human activity.
 The fine-tuning script is: "BasicQuery/finetune.py" and the evaluation script is "BasicQuery/evaluate.py". Change the necessary tokens and variables inside the script. The provided script here get a 79% accuracy on the test set.
+The trend of training loss value:
+<img src="Images/base_train_loss.png">
+The trend of evaluation loss value:
+<img src="Images/base_val_loss.png">
