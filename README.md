@@ -16,3 +16,7 @@ The trend of training loss value:
 <img src="Images/base_train_loss.png">
 The trend of evaluation loss value:
 <img src="Images/base_val_loss.png">
+
+
+# Step 3 (Vision LLMs):
+For Detecting speech commands with vision LLMs, the google speech commands dataset can be found in huggingface: /mmonjur/GOOGLE_SPEECH_COMMAND_VLM and the corresponding code to load a Qwen2-VL model and fine tune can be found in the SpeechCommandsQwen2 Folder
